@@ -1,25 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/static/js/main.2049a6f2.chunk.js",
-    "main.js.map": "/static/js/main.2049a6f2.chunk.js.map",
+    "main.css": "/static/css/main.56e99e26.chunk.css",
+    "main.js": "/static/js/main.2ac18416.chunk.js",
+    "main.js.map": "/static/js/main.2ac18416.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.082d2094.js",
     "runtime-main.js.map": "/static/js/runtime-main.082d2094.js.map",
     "static/css/2.1a02f21c.chunk.css": "/static/css/2.1a02f21c.chunk.css",
-    "static/js/2.41b13154.chunk.js": "/static/js/2.41b13154.chunk.js",
-    "static/js/2.41b13154.chunk.js.map": "/static/js/2.41b13154.chunk.js.map",
+    "static/js/2.6d894a3d.chunk.js": "/static/js/2.6d894a3d.chunk.js",
+    "static/js/2.6d894a3d.chunk.js.map": "/static/js/2.6d894a3d.chunk.js.map",
     "static/js/3.0eaf12c8.chunk.js": "/static/js/3.0eaf12c8.chunk.js",
     "static/js/3.0eaf12c8.chunk.js.map": "/static/js/3.0eaf12c8.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.8c8b27cf.chunk.css.map": "/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.41b13154.chunk.js.LICENSE.txt": "/static/js/2.41b13154.chunk.js.LICENSE.txt"
+    "static/css/main.56e99e26.chunk.css.map": "/static/css/main.56e99e26.chunk.css.map",
+    "static/js/2.6d894a3d.chunk.js.LICENSE.txt": "/static/js/2.6d894a3d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/bakgrund.d1b4e60b.jpg",
+    "static/media/bandbild 3 2020 bw.e1cf0b58.png": "/static/media/bandbild 3 2020 bw.e1cf0b58.png",
+    "static/media/bandcamp icon.b7b31684.svg": "/static/media/bandcamp icon.b7b31684.svg",
+    "static/media/corner snake gray.0d366943.svg": "/static/media/corner snake gray.0d366943.svg",
+    "static/media/corner snake red.d34591fb.svg": "/static/media/corner snake red.d34591fb.svg",
+    "static/media/facebook icon.56edad0e.svg": "/static/media/facebook icon.56edad0e.svg",
+    "static/media/habitats.6c5fa53f.png": "/static/media/habitats.6c5fa53f.png",
+    "static/media/instagram icon.dcc0ce92.svg": "/static/media/instagram icon.dcc0ce92.svg",
+    "static/media/rp logo.26f1452a.svg": "/static/media/rp logo.26f1452a.svg",
+    "static/media/youtube icon.4a1631c5.svg": "/static/media/youtube icon.4a1631c5.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.082d2094.js",
     "static/css/2.1a02f21c.chunk.css",
-    "static/js/2.41b13154.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.2049a6f2.chunk.js"
+    "static/js/2.6d894a3d.chunk.js",
+    "static/css/main.56e99e26.chunk.css",
+    "static/js/main.2ac18416.chunk.js"
   ]
 }
