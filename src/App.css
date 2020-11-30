@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+body {
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cover {
+  margin-top: -450px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.coverphoto {
+  width: 98.6%;
+  z-index: -10;
+  position: fixed;
+  top: 10;
+  left: 15;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.rp-logo {
+  width: 10%;
+  z-index: -5;
+  position: fixed;
+  top: 90px;
+  left: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.footer {
+  background-image: url('images/bakgrund.jpg');
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer p {
+  font-size: 1.5em;
+}
+
+.footer-snake {
+  width: 100%;
+}
+
+.footer-icon {
+  width: 6%;
+  margin: 10px;
+}
+
+.navbar-icon {
+  width: 30px;
+  margin: 5px;
+}
+
+.icon:hover {
+  fill: #EA553B;
+}
+
+.news {
+  background-image: url('images/bakgrund mörk.png');
+  background-repeat: repeat;
+}
+
+.habitats {
+  width: 100%;
 }

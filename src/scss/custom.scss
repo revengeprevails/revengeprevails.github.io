@@ -1,0 +1,14 @@
+/*! Bootstrap 4 custom build by Themestr.app */
+
+$red:#ea553b;
+$gray-100:#c3baba;
+$gray-800:#343131;
+$mark-bg:#ea553b;
+
+/*! Import Bootstrap 4 variables */
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+$primary:$red;
+$navbar-light-hover-color:rgba($red, .7);
+$navbar-light-active-color:rgba($red, .9);
+@import "bootstrap";

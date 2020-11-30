@@ -1,24 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from 'react';
+import MyNavbar from './components/mynavbar'
+import { HashRouter as Router, Route, Redirect } from 'react-router-dom';
+import { withRouter } from 'react-router' 
+import Home from './components/home';
+import About from './components/about'
+import Contact from './components/contact';
+import Gigs from './components/gigs';
+import Music from './components/music';
+
+const HeaderWithRouter = withRouter(MyNavbar);
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  window.addEventListener(
+    "scroll",
+    () => {
+      document.body.style.setProperty(
+        "--scroll",
+        window.pageYOffset / (document.body.offsetHeight - window.innerHeight)
+      );
+    },
+    false
+  );
+
+  return (    
+     <Router basename="/">
+       <Fragment>
+          <HeaderWithRouter />
+          <Route exact path="/">
+            <Redirect to="/home" />
+          </Route>
+          <Route exact path="/home" component={ Home } />
+          <Route path="/about" component={ About } />
+          <Route path="/music" component={ Music } />
+          <Route path="/gigs" component={ Gigs } />
+          <Route path="/contact" component={ Contact } />
+        </Fragment>
+     </Router>  
   );
 }
 
