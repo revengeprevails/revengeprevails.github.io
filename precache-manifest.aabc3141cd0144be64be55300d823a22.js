@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "370cbb8ad2607ba31350e0c702a58cf0",
+    "revision": "eac360c2a8e14d7be894078e443accbc",
     "url": "/index.html"
   },
   {
-    "revision": "66630744c86b94b7697b",
+    "revision": "1a133746d65905bc848c",
     "url": "/static/css/2.437d98bc.chunk.css"
   },
   {
-    "revision": "3982e9495d2c1bb8a19b",
-    "url": "/static/css/main.cac80b26.chunk.css"
+    "revision": "38db37f87fde459b7906",
+    "url": "/static/css/main.1814d817.chunk.css"
   },
   {
-    "revision": "66630744c86b94b7697b",
-    "url": "/static/js/2.4c1fbca2.chunk.js"
+    "revision": "1a133746d65905bc848c",
+    "url": "/static/js/2.27d5c67a.chunk.js"
   },
   {
     "revision": "29eb69a08ea4198f7b46e1db8a3d5045",
-    "url": "/static/js/2.4c1fbca2.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.27d5c67a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aef999fdf4616e730bb9",
-    "url": "/static/js/3.00c97c14.chunk.js"
+    "revision": "4a4fedc590b498722656",
+    "url": "/static/js/3.4c8ea52c.chunk.js"
   },
   {
-    "revision": "3982e9495d2c1bb8a19b",
-    "url": "/static/js/main.2b22927e.chunk.js"
+    "revision": "38db37f87fde459b7906",
+    "url": "/static/js/main.053f9dac.chunk.js"
   },
   {
-    "revision": "5b7bbabd998f3205b98a",
-    "url": "/static/js/runtime-main.af8a3cb9.js"
+    "revision": "1d0e9a8de398ef934f4f",
+    "url": "/static/js/runtime-main.5c9c8003.js"
   },
   {
     "revision": "7b0ed5c4c626e2e05c601f3660844903",
@@ -48,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Ludvig small.f057c270.jpg"
   },
   {
+    "revision": "21f5f7319196248c08825e260bf32d53",
+    "url": "/static/media/bakgrund mörk mitt.21f5f731.png"
+  },
+  {
     "revision": "3c7962a1fc2a0d2a60fb0271b819e8b6",
     "url": "/static/media/bakgrund mörk.3c7962a1.png"
   },
@@ -64,28 +68,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bandbild 3 2020 bw.32c9bb89.jpg"
   },
   {
-    "revision": "71b1857669dc4210798745705a8483d1",
-    "url": "/static/media/black void injection.71b18576.png"
-  },
-  {
     "revision": "a2293659e43addec6798dfa1551fec26",
     "url": "/static/media/corner snake gray.a2293659.svg"
   },
   {
     "revision": "6565702f1158c1c1b0ce4dcd32dae19b",
     "url": "/static/media/corner snake red.6565702f.svg"
-  },
-  {
-    "revision": "36dd34e9ed9c1e1425acef5734980b9d",
-    "url": "/static/media/dark trembling solace.36dd34e9.png"
-  },
-  {
-    "revision": "5dd2782227e7b1a7784ec60cf2cd3cec",
-    "url": "/static/media/false hope cruelty.5dd27822.png"
-  },
-  {
-    "revision": "671944038083e82f1fe5028eb3afe274",
-    "url": "/static/media/habitats.67194403.png"
   },
   {
     "revision": "afb9453d8be912cab3a01e88273f48a8",
