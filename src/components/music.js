@@ -10,13 +10,33 @@ import dts from '../images/dark trembling solace.png'
 import bvi from '../images/black void injection.png' 
 
 class Music extends React.Component { 
+  
+  constructor() {
+    super();
+    this.state = {
+      releases: []
+    };
+  }
+
+  componentDidMount() {
+    let requestURL = 'https://raw.githubusercontent.com/revengeprevails/revengeprevails.github.io/master/src/music.json';
+    let request = new XMLHttpRequest();
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
+
+    request.onload = function() {
+      const json = request.response;
+      var allReleases = json['releases'];
+      this.setState({releases: allReleases})
+
+    }.bind(this);
+  }
+
   render() {
     return( 
       <Container fluid className="justify-content-center">
-        <Album imgsrc={habitats} title="Habitats" info="En bra skiva" type="" tracklist=""/>
-        <Album imgsrc={fhc} title="False Hope Cruelty" info="Också en bra skiva" type="" tracklist=""/>
-        <Album imgsrc={dts} title="Dark Trembling Solace" info="En annan bra skiva" type="" tracklist=""/>
-        <Album imgsrc={bvi} title="Black Void Injection" info="En bra skiva" type="" tracklist=""/>
+        <Album releases={this.state.releases}/>
         <Footer/>
       </Container>
     );

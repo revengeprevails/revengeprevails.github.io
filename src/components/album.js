@@ -2,33 +2,34 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import '../App.css';
 
-class Music extends React.Component { 
-  constructor(props) {
-    super(props);
-    this.state = {
-        imgsrc: props.imgsrc,
-        title: props.title,
-        info: props.info,
-        type: props.type,
-        tracklist: props.tracklist
-    };
-  }
-
+class Album extends React.Component { 
   render() {
+    const { releases } = this.props;
     return( 
-      <Row className="vh-100 p-5 bg-spots-light">
-        <Col className="my-auto">
-          <p>{this.state.title}</p>
-        </Col>
-        <Col className="my-auto">
-          <p>{this.state.description}</p>
-        </Col>
-        <Col className="my-auto">
-          <img className="w-100 d-block" src={this.state.imgsrc}/>
-        </Col>
-      </Row>    
+      <div>
+        {
+          releases.map(item => {
+            return (
+              <Row className="lots-of-top-margin">
+                <Col>
+                  <h2>{item.title} ({item.releaseDate})</h2>
+                  <p>{item.info}</p>
+                </Col>
+                <Col>
+                  {item.tracks.map(track => {
+                   return(<p>{track}</p>)
+                  })}
+                </Col>
+                <Col>
+                  
+                </Col>
+              </Row>
+            )
+          })
+        }
+      </div>
     );
   }
 }
 
-export default Music;
+export default Album;

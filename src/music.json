@@ -3,7 +3,7 @@
     {
       "title": "Habitats",
       "releaseDate": "2020",
-      "type": "Full-length",
+      "type": "Full-length Album",
       "tracks": [
         "1. Hidden Within the Hive",
         "2. Limbless I Keep Reaching",
@@ -21,7 +21,7 @@
     {
       "title": "False Hope Cruelty",
       "releaseDate": "2017",
-      "type": "Full-length",
+      "type": "Full-length Album",
       "tracks": [
         "1. Into the Depths",
         "2. Bliss is a Hoax", 
@@ -38,6 +38,42 @@
       ],
       "info" : "Album produced and recorded by Revenge Prevails Augusti 2016 to January 2017. Mixed by Ludvig 'Hlodyr' Björk. Mastered by Anders Lagerfors at Nacksving Studio 1. Music by Revenge Prevails. Lyrics by Josef 'the Sultan' Svensson except 'Habeas Corpus' by Ludvig 'Hlodyr' Björk. Artwork by Isabella Ramare. Released August 4th 2017.",     
       "lineup" : "Josef 'The Sultan' Svensson: Lead vocals, guitar, keyboard, accordion & trumpet|Christoffer 'Bilge-Blasting Impender' Helleren: Drums, backing vocals & percussion|Isabella Ramare: Bass, vocals, jew's harp & trombone|Ludvig Björk: Guitars and vocals"      
+    },
+
+    
+    {
+      "title": "Dark Trembling Solace",
+      "releaseDate": "2015",
+      "type": "Full-length Album",
+      "tracks": [
+        "1. Revenge Prevails",
+        "2. Mind Flayer",
+        "3. Seared With Scars",
+        "4. Anima Sola",
+        "5. The Creation of Destruction Part I (Redeemer of Dust and Clay)",
+        "6. Poison Divine",
+        "7. Shadow Fiend",
+        "8. Plaguebearers Upon Pestilent Fields",
+        "9. Decayed Dreams of Heaven",
+        "10. Fleshless Spectre (Bonus Track)"
+      ],
+      "info" : "Album produced and recorded by Revenge Prevails, summer 2014. Mixed and mastered by Ludvig 'Hlodyr' Björk. Artwork by Isabella Ramare. Music by Revenge Prevails. Lyrics by Josef 'The Sultan' Svensson. Released May 22nd, 2015.",     
+      "lineup" : "Josef 'The Sultan' Svensson: Lead Apocalypse Chanter, Six stringed Totem of Unholy Light and Keys of Tormenting Mirage|Christoffer 'Bilge-Blasting Impender' Helleren: Trembling Sticks of Fire and Apocalyptic Choir|Isabella 'Goatwitch' Ramare: Four Rumbling Worm Strings|Ludvig 'Hlodyr' Björk: Six Stringed Earthquake Summoning Device and Apocalyptic Choir"      
+    },
+
+    {
+      "title": "Black Void Injection",
+      "releaseDate": "2013",
+      "type": "Demo/EP",
+      "tracks": [
+        "1. Bloodstained Paradox",
+        "2. Everyone Will Burn in Hell",
+        "3. World of Nothing",
+        "4. Själlöst Förfall",
+        "5. Betrayed by the Sacred"
+      ],
+      "info" : "Produced by Revenge Prevails and Billy Mellström. Engineered mixed and mastered by Billy Mellström. Recorded at Billys's studio in Ljungskile, Sweden, Autumn 2012. Music by Revenge Prevails. Lyrics by Josef. Artwork and layout by Isabella. Released March 13th, 2013.",     
+      "lineup" : "Josef: Axe of Death and Bleeding Throat|Isabella:Heart Stabbing Frequencies|Chris: Mind Flaying Beats and Blasts"      
     }
   ]
 }
