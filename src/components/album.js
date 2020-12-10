@@ -21,7 +21,7 @@ class Album extends React.Component {
                   })}
                 </Col>
                 <Col>
-                  
+                  <img className="w-100 d-block" src={item.albumCoverURL}/>
                 </Col>
               </Row>
             )
