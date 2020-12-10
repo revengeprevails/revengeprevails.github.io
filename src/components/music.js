@@ -4,11 +4,6 @@ import '../App.css';
 import Footer from './footer';
 import Album from './album';
 
-import habitats from '../images/habitats.png' 
-import fhc from '../images/false hope cruelty.png' 
-import dts from '../images/dark trembling solace.png' 
-import bvi from '../images/black void injection.png' 
-
 class Music extends React.Component { 
   
   constructor() {
@@ -35,7 +30,7 @@ class Music extends React.Component {
 
   render() {
     return( 
-      <Container fluid className="justify-content-center">
+      <Container fluid className="justify-content-center music">        
         <Album releases={this.state.releases}/>
         <Footer/>
       </Container>

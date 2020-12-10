@@ -4,7 +4,6 @@ import '../App.css';
 import Footer from './footer';
 import coverphoto from '../images/bandbild 3 2020 bw.jpg' 
 import logo from '../images/rp logo.svg'
-import habitats from '../images/habitats.png'
 
 class Home extends React.Component { 
   render() {
@@ -34,7 +33,7 @@ class Home extends React.Component {
           </Col>
         </Row>
         <Row className="bg-spots-dark bg-fixed py-5 justify-content-center">
-          <Col className="col-md-8 col-12 lots-of-top-margin">
+          <Col className="col-md-8 col-12 mt-5">
             <h1 className="text-light text-center mt-5 ">NEWS</h1>
             <Row className="justify-content-center my-5 p-md-5 p-sm-0 text-light">
               <Col className="col-md-6 col-12">
@@ -47,7 +46,7 @@ class Home extends React.Component {
             </Row>
             <Row className="justify-content-center my-5 p-md-5 p-1 text-light">
               <Col className="col-md-6 col-12">
-                <img alt="Habitats album cover" src={habitats} className="habitats"/>               
+                <img alt="Habitats album cover" src="https://f4.bcbits.com/img/a0658377898_10.jpg" className="habitats"/>               
               </Col>
               <Col className="col-md-6 col-12 p-3">
                 <h2 className="text-left">HABITATS FULL ALBUM 2020</h2>

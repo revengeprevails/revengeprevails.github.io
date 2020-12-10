@@ -52,6 +52,10 @@ p {
   font-style: normal;
 }
 
+.music {
+  margin-top: 75px;
+}
+
 .hand-l, .hand-r {
   width: 100%;
 }
@@ -92,6 +96,10 @@ p {
   line-height: 1em;
 }
 
+.text-red {
+  color: #EA553B;
+}
+
 .brand {
   width: 50px;
 }
@@ -104,6 +112,12 @@ p {
 .bg-spots-light {
   background-image: url('images/bakgrund.jpg');
   background-repeat: repeat;
+}
+
+.bg-spots-dark-center {
+  background-image: url('images/bakgrund mörk mitt.png');
+  background-repeat: repeat-y;
+  background-position: center;
 }
 
 .bg-fixed {
