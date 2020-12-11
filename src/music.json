@@ -16,7 +16,27 @@
         "8. Nightmares of a Promised Land"
       ],
       "info" : "Recorded during eight days between November 2019 and February 2020. Engineered, mixed and mastered by Anders Backelin at Armageddon Recordings, Vänersborg, Sweden. Lyrics by Josef the Sultan Svensson. Music by Revenge Prevails. Cover art and graphic design by Isabella Ramare. Released June 14th, 2020.",
-      "lineup" : "Josef 'The Sultan' Svensson: Lead vocals, guitars, keys and FX|Christoffer 'Bilge-Blasting Impender' Helleren: Drums|Isabella Ramare: Bass and vocals|Ludvig 'Hlodyr' Björk: Lead Guitar"
+      "lineup" : [
+        {
+          "name": "Josef Svensson as the Sultan",
+          "contribution": "Lead vocals, guitars, keys and FX"
+        },
+        {
+          "name": "Christoffer Helleren as Bilge-Blasting Impender",
+          "contribution": "Drums"
+        },
+        {
+          "name": "Isabella Ramare as Herself",
+          "contribution": "Bass and vocals"
+        },
+        {
+          "name": "Ludvig Björk as Hlodyr",
+          "contribution": "Lead guitar"
+        }
+      ], 
+      "spotifyLink": "https://open.spotify.com/album/7aWi72vPNhkceoUOjNK6dK?si=uzz-4MWzTdCaqSh-A2lD5g",
+      "youtubeLink": "https://youtu.be/iCrcsPQ0WZ0",
+      "bandcampLink": "https://revengeprevails.bandcamp.com/album/habitats"
     },
 
     {
@@ -39,10 +59,29 @@
         "12. Memoria (Bonus track)"
       ],
       "info" : "Album produced and recorded by Revenge Prevails Augusti 2016 to January 2017. Mixed by Ludvig 'Hlodyr' Björk. Mastered by Anders Lagerfors at Nacksving Studio 1. Music by Revenge Prevails. Lyrics by Josef 'the Sultan' Svensson except 'Habeas Corpus' by Ludvig 'Hlodyr' Björk. Artwork by Isabella Ramare. Released August 4th 2017.",     
-      "lineup" : "Josef 'The Sultan' Svensson: Lead vocals, guitar, keyboard, accordion & trumpet|Christoffer 'Bilge-Blasting Impender' Helleren: Drums, backing vocals & percussion|Isabella Ramare: Bass, vocals, jew's harp & trombone|Ludvig Björk: Guitars and vocals"      
+      "lineup" : [
+        {
+          "name": "Josef 'The Sultan' Svensson",
+          "contribution": "Lead vocals, guitar, keyboard, accordion & trumpet"
+        },
+        {
+          "name": "Christoffer 'Bilge-Blasting Impender' Helleren",
+          "contribution": "Drums, backing vocals & percussion"
+        },
+        {
+          "name": "Isabella Ramare",
+          "contribution": "Bass, vocals, jew's harp & trombone"
+        },
+        {
+          "name": "Ludvig 'Hlodyr' Björk",
+          "contribution": "Guitars and vocals"
+        }
+      ],
+      "spotifyLink": "https://open.spotify.com/album/5UbqnJTyuyCH6jNWpCmJUl?si=qPN4tjwATIO_XNWHzyFCTg",
+      "youtubeLink": "https://youtu.be/YDD2-2UN9SI",
+      "bandcampLink": "https://revengeprevails.bandcamp.com/album/false-hope-cruelty"   
     },
 
-    
     {
       "title": "Dark Trembling Solace",
       "albumCoverURL": "https://f4.bcbits.com/img/a4148041208_10.jpg",
@@ -61,7 +100,27 @@
         "10. Fleshless Spectre (Bonus Track)"
       ],
       "info" : "Album produced and recorded by Revenge Prevails, summer 2014. Mixed and mastered by Ludvig 'Hlodyr' Björk. Artwork by Isabella Ramare. Music by Revenge Prevails. Lyrics by Josef 'The Sultan' Svensson. Released May 22nd, 2015.",     
-      "lineup" : "Josef 'The Sultan' Svensson: Lead Apocalypse Chanter, Six stringed Totem of Unholy Light and Keys of Tormenting Mirage|Christoffer 'Bilge-Blasting Impender' Helleren: Trembling Sticks of Fire and Apocalyptic Choir|Isabella 'Goatwitch' Ramare: Four Rumbling Worm Strings|Ludvig 'Hlodyr' Björk: Six Stringed Earthquake Summoning Device and Apocalyptic Choir"      
+      "lineup" : [
+        {
+          "name": "Josef 'The Sultan' Svensson",
+          "contribution": "Lead Apocalypse Chanter, Six stringed Totem of Unholy Light and Keys of Tormenting Mirage"
+        },
+        {
+          "name": "Christoffer 'Bilge-Blasting Impender' Helleren",
+          "contribution": "Trembling Sticks of Fire and Apocalyptic Choir"
+        },
+        {
+          "name": "Isabella 'Goatwitch' Ramare",
+          "contribution": "Four Rumbling Worm Strings"
+        },
+        {
+          "name": "Ludvig 'Hlodyr' Björk",
+          "contribution": "Six Stringed Earthquake Summoning Device and Apocalyptic Choir"
+        }
+      ],
+      "spotifyLink": "https://open.spotify.com/album/4tABe2w2UyfiutYRnOtMtv?si=QDfVGuw5TPe6XNwtWtqP7g",
+      "youtubeLink": "https://youtu.be/d4cXBzSBgH4",
+      "bandcampLink": "https://revengeprevails.bandcamp.com/album/dark-trembling-solace" 
     },
 
     {
@@ -77,7 +136,23 @@
         "5. Betrayed by the Sacred"
       ],
       "info" : "Produced by Revenge Prevails and Billy Mellström. Engineered mixed and mastered by Billy Mellström. Recorded at Billy's studio in Ljungskile, Sweden, Autumn 2012. Music by Revenge Prevails. Lyrics by Josef. Artwork and layout by Isabella. Released March 13th, 2013.",     
-      "lineup" : "Josef: Axe of Death and Bleeding Throat|Isabella:Heart Stabbing Frequencies|Chris: Mind Flaying Beats and Blasts"      
+      "lineup" : [
+        {
+          "name": "Josef",
+          "contribution": "Axe of Death and Bleeding Throat"
+        },
+        {
+          "name": "Chris",
+          "contribution": "Mind Flaying Beats and Blasts"
+        },
+        {
+          "name": "Isabella",
+          "contribution": "Heart Stabbing Frequencies"
+        }        
+      ],
+      "spotifyLink": "https://open.spotify.com/album/4RkZCzeSIf1gAQkrshVevQ?si=de0V2s2_SruLctaJRzgVIA",
+      "youtubeLink": "https://youtu.be/liB7_kLU7qg",
+      "bandcampLink": "https://revengeprevails.bandcamp.com/album/black-void-injection" 
     }
   ]
 }

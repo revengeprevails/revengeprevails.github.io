@@ -1,17 +1,17 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Accordion, Button, Card } from 'react-bootstrap';
 import '../App.css';
 
 class Album extends React.Component { 
   render() {
     const { releases } = this.props;
     return( 
-    <div className="bg-spots-light px-5">
+    <div className="bg-spots-light px-md-5 p-0">
         {
           releases.map(item => {
             return (
-              <Row className="bg-spots-dark-center justify-content-center p-5">               
-                <Col className="col-md-4 py-3 px-5 offset-md-2">
+              <Row className="bg-spots-dark-center justify-content-center p-md-5 p-3">               
+                <Col className="col-md-4 col-12 py-md-3 px-md-5 p-0 my-3 offset-md-2 order-md-1 order-2">
                   <h2 className="text-uppercase">{item.title}</h2>
                   <h3>{item.type} ({item.releaseDate})</h3>
                   <div className="py-3">
@@ -32,18 +32,47 @@ class Album extends React.Component {
                     </a>
                   </div>
                 </Col>
-                <Col className="col-md-4 py-3 px-5 ">
+                <Col className="col-md-4 col-12 py-3 px-5 order-md-2 order-1">
                   <img className="w-100 d-block" src={item.albumCoverURL}/>
                 </Col>
-                <Col className="col-md-2"></Col>
-                <Col className="col-md-4 px-5">
-                  <h3>Info</h3>
-                  <p className="text-light">{item.info}</p>
+                <Col className="col-md-2 order-md-3 order-5"></Col>
+                <Col className="col-md-4 col-12 px-md-5 p-0 my-3 order-3">
+                  <Accordion>
+                    <Card>
+                      <Card.Header>
+                        <Accordion.Toggle as={Button} variant="link" eventKey="0">
+                          <h3 className="accordion-header">Info 
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-down-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                            </svg>
+                          </h3>
+                        </Accordion.Toggle>
+                      </Card.Header>
+                      <Accordion.Collapse eventKey="0">
+                        <Card.Body><p className="text-light">{item.info}</p></Card.Body>
+                      </Accordion.Collapse>
+                    </Card>
+                  </Accordion>
                 </Col>
-                <Col className="col-md-4 px-5">
-                  <h3>Lineup</h3>
-                  <p className="text-light">{item.lineup}</p>
+                <Col className="col-md-4 col-12 px-md-5 p-0 my-3 order-4">
+                  <Accordion>
+                    <Card>
+                      <Card.Header>
+                        <Accordion.Toggle as={Button} variant="link" eventKey="0">
+                          <h3 className="accordion-header">Lineup 
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-down-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                            </svg>
+                          </h3>
+                        </Accordion.Toggle>
+                      </Card.Header>
+                      <Accordion.Collapse eventKey="0">
+                        <Card.Body><p className="text-light">{item.lineup}</p></Card.Body>
+                      </Accordion.Collapse>
+                    </Card>
+                  </Accordion>
                 </Col>
+               
               </Row>
             )
           })
