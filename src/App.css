@@ -172,6 +172,15 @@ p {
   margin-bottom: -5px;
 }
 
+.accordion-header:hover {
+  color:rgb(23, 26, 29);
+}
+
+.border-red {
+  border: 1px solid #EA553B;
+  border-radius: 2px;
+}
+
 .habitats {
   width: 100%;
 }
