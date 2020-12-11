@@ -14,18 +14,22 @@ class Music extends React.Component {
   }
 
   componentDidMount() {
-    let requestURL = 'https://raw.githubusercontent.com/revengeprevails/revengeprevails.github.io/master/src/music.json';
-    let request = new XMLHttpRequest();
-    request.open('GET', requestURL);
-    request.responseType = 'json';
-    request.send();
+    //let requestURL = 'https://raw.githubusercontent.com/revengeprevails/revengeprevails.github.io/master/src/music.json';
+    //let request = new XMLHttpRequest();
+    //request.open('GET', requestURL);
+    //request.responseType = 'json';
+    //request.send();
 
-    request.onload = function() {
-      const json = request.response;
-      var allReleases = json['releases'];
-      this.setState({releases: allReleases})
+    //request.onload = function() {
+    //  const json = request.response;
+    //  var allReleases = json['releases'];
+    //  this.setState({releases: allReleases})
 
-    }.bind(this);
+    //}.bind(this);
+
+    const releasesJSON = require('../music.json')
+    console.log(releasesJSON.releases)
+    this.setState({releases: releasesJSON.releases})
   }
 
   render() {

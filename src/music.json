@@ -1,6 +1,7 @@
 {
   "releases": [
     {
+      "id": 0,
       "title": "Habitats",
       "albumCoverURL": "https://f4.bcbits.com/img/a0658377898_10.jpg",
       "releaseDate": "2020",
@@ -18,18 +19,22 @@
       "info" : "Recorded during eight days between November 2019 and February 2020. Engineered, mixed and mastered by Anders Backelin at Armageddon Recordings, Vänersborg, Sweden. Lyrics by Josef the Sultan Svensson. Music by Revenge Prevails. Cover art and graphic design by Isabella Ramare. Released June 14th, 2020.",
       "lineup" : [
         {
+          "id": 0,
           "name": "Josef Svensson as the Sultan",
           "contribution": "Lead vocals, guitars, keys and FX"
         },
         {
+          "id": 1,
           "name": "Christoffer Helleren as Bilge-Blasting Impender",
           "contribution": "Drums"
         },
         {
+          "id": 2,
           "name": "Isabella Ramare as Herself",
           "contribution": "Bass and vocals"
         },
         {
+          "id": 3,
           "name": "Ludvig Björk as Hlodyr",
           "contribution": "Lead guitar"
         }
@@ -40,6 +45,7 @@
     },
 
     {
+      "id": 1,
       "title": "False Hope Cruelty",
       "albumCoverURL": "https://f4.bcbits.com/img/a3850435771_10.jpg",
       "releaseDate": "2017",
@@ -61,18 +67,22 @@
       "info" : "Album produced and recorded by Revenge Prevails Augusti 2016 to January 2017. Mixed by Ludvig 'Hlodyr' Björk. Mastered by Anders Lagerfors at Nacksving Studio 1. Music by Revenge Prevails. Lyrics by Josef 'the Sultan' Svensson except 'Habeas Corpus' by Ludvig 'Hlodyr' Björk. Artwork by Isabella Ramare. Released August 4th 2017.",     
       "lineup" : [
         {
+          "id": 0,
           "name": "Josef 'The Sultan' Svensson",
           "contribution": "Lead vocals, guitar, keyboard, accordion & trumpet"
         },
         {
+          "id": 1,
           "name": "Christoffer 'Bilge-Blasting Impender' Helleren",
           "contribution": "Drums, backing vocals & percussion"
         },
         {
+          "id": 2,
           "name": "Isabella Ramare",
           "contribution": "Bass, vocals, jew's harp & trombone"
         },
         {
+          "id": 3,
           "name": "Ludvig 'Hlodyr' Björk",
           "contribution": "Guitars and vocals"
         }
@@ -83,6 +93,7 @@
     },
 
     {
+      "id": 2,
       "title": "Dark Trembling Solace",
       "albumCoverURL": "https://f4.bcbits.com/img/a4148041208_10.jpg",
       "releaseDate": "2015",
@@ -102,18 +113,22 @@
       "info" : "Album produced and recorded by Revenge Prevails, summer 2014. Mixed and mastered by Ludvig 'Hlodyr' Björk. Artwork by Isabella Ramare. Music by Revenge Prevails. Lyrics by Josef 'The Sultan' Svensson. Released May 22nd, 2015.",     
       "lineup" : [
         {
+          "id": 0,
           "name": "Josef 'The Sultan' Svensson",
           "contribution": "Lead Apocalypse Chanter, Six stringed Totem of Unholy Light and Keys of Tormenting Mirage"
         },
         {
+          "id": 1,
           "name": "Christoffer 'Bilge-Blasting Impender' Helleren",
           "contribution": "Trembling Sticks of Fire and Apocalyptic Choir"
         },
         {
+          "id": 2,
           "name": "Isabella 'Goatwitch' Ramare",
           "contribution": "Four Rumbling Worm Strings"
         },
         {
+          "id": 3,
           "name": "Ludvig 'Hlodyr' Björk",
           "contribution": "Six Stringed Earthquake Summoning Device and Apocalyptic Choir"
         }
@@ -124,6 +139,7 @@
     },
 
     {
+      "id": 3,
       "title": "Black Void Injection",
       "albumCoverURL": "https://f4.bcbits.com/img/a0701674840_10.jpg",
       "releaseDate": "2013",
@@ -138,14 +154,17 @@
       "info" : "Produced by Revenge Prevails and Billy Mellström. Engineered mixed and mastered by Billy Mellström. Recorded at Billy's studio in Ljungskile, Sweden, Autumn 2012. Music by Revenge Prevails. Lyrics by Josef. Artwork and layout by Isabella. Released March 13th, 2013.",     
       "lineup" : [
         {
+          "id": 0,
           "name": "Josef",
           "contribution": "Axe of Death and Bleeding Throat"
         },
         {
+          "id": 1,
           "name": "Chris",
           "contribution": "Mind Flaying Beats and Blasts"
         },
         {
+          "id": 2,
           "name": "Isabella",
           "contribution": "Heart Stabbing Frequencies"
         }        
