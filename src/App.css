@@ -56,6 +56,49 @@ p {
   margin-top: 75px;
 }
 
+.gigs {
+  margin-top: 75px;
+}
+
+table {
+  margin: auto;
+}
+
+th {
+  width: 200px;
+  color: #EA553B;
+  font-family: 'Letter Gothic Std', monospace;
+  padding: 5px 10px;
+  background-color: #c3baba;
+}
+
+td {
+  border-top: 5px solid #343131;
+  padding: 10px;
+  background-color: #c3babacc;
+}
+
+.rotating-snake {
+  width: 40%;
+  position: fixed;
+}
+
+.snake-left {
+  left: -25%;
+}
+
+.snake-right {
+  right: -25%;
+}
+
+.behind {
+  z-index: -10;
+}
+
+.on-top {
+  z-index: 10;
+}
+
 .hand-l, .hand-r {
   width: 100%;
 }
@@ -91,7 +134,7 @@ p {
   font-weight: 400;
   color: #EA553B;
   user-select: none;
-  font-size: 12em;
+  font-size: 10em;
   letter-spacing: .5em;
   margin-top: 15%;
   line-height: 1em;

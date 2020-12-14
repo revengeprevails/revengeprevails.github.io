@@ -6,7 +6,7 @@ class Album extends React.Component {
   render() {
     const { releases } = this.props;
     return( 
-    <div className="bg-spots-light px-md-5 p-0">
+      <div className="bg-spots-light px-md-5 p-0">
         {
           releases.map(item => {
             return (

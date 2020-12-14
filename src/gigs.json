@@ -1,0 +1,294 @@
+{
+  "gigs": [
+    {
+      "id": 0,
+      "date": "2009-11-21",
+      "location": "Folkets hus",
+      "city": "Uddevalla",
+      "event": "Rock the Night",
+      "organizer": "Sensus",
+      "notes": "Revenge Prevails first live show, only Josef from the current line-up was present, among with the previous drummer and session bassist."
+    },
+
+    {
+      "id": 1,
+      "date": "2012-03-02",
+      "location": "Ungdomshuset",
+      "city": "Vänersborg",
+      "event": "Livekarusellen",
+      "organizer": "Studiefrämjandet",
+      "notes": ""
+    },
+
+    {
+      "id": 2,
+      "date": "2012-03-07",
+      "location": "N3",
+      "city": "Trollhättan",
+      "event": "Livekarusellen",
+      "organizer": "Studiefrämjandet",
+      "notes": ""
+    },
+
+    {
+      "id": 3,
+      "date": "2012-03-13",
+      "location": "Bohusläns Museum",
+      "city": "Uddevalla",
+      "event": "Livekarusellen",
+      "organizer": "Studiefrämjandet",
+      "notes": ""
+    },
+
+    {
+      "id": 4,
+      "date": "2013-05-19",
+      "location": "Dalslands Folkhögskola",
+      "city": "Färgelanda",
+      "event": "Revenge Prevails + Rotfrukt",
+      "organizer": "Dalslands Folkhögskola",
+      "notes": ""
+    },
+
+    {
+      "id": 5,
+      "date": "2014-02-28",
+      "location": "Café Mic",
+      "city": "Vänersborg",
+      "event": "Livekarusellen",
+      "organizer": "Studiefrämjandet",
+      "notes": ""
+    },
+
+    {
+      "id": 6,
+      "date": "2014-03-05",
+      "location": "N3",
+      "city": "Trollhättan",
+      "event": "Livekarusellen",
+      "organizer": "Studiefrämjandet",
+      "notes": ""
+    },
+
+    {
+      "id": 7,
+      "date": "2014-03-12",
+      "location": "Bohusläns Museum",
+      "city": "Uddevalla",
+      "event": "Livekarusellen",
+      "organizer": "Studiefrämjandet",
+      "notes": ""
+    },
+
+    {
+      "id": 8,
+      "date": "2015-05-22",
+      "location": "Bastionen",
+      "city": "Uddevalla",
+      "event": "Kôrpehôlsfestivalen",
+      "organizer": "MF Adrian",
+      "notes": ""
+    },
+
+    {
+      "id": 9,
+      "date": "2016-11-12",
+      "location": "Kings Table",
+      "city": "Stockholm",
+      "event": "Klubb DRAUGH",
+      "organizer": "DRAUGH",
+      "notes": "First show in Stockholm, played with Helvetestromb."
+    },
+
+    {
+      "id": 10,
+      "date": "2017-02-03",
+      "location": "Backstage Varberg",
+      "city": "Varberg",
+      "event": "Revenge Prevails Live (black/death)",
+      "organizer": "Backstage Varberg",
+      "notes": ""
+    },
+
+    {
+      "id": 11,
+      "date": "2017-03-31",
+      "location": "Skövde Kulturhus",
+      "city": "Skövde",
+      "event": "Metalkväll på kulturiet",
+      "organizer": "Vildvittra",
+      "notes": ""
+    },
+
+    {
+      "id": 12,
+      "date": "2017-08-12",
+      "location": "Alunda",
+      "city": "Uppsala",
+      "event": "Oland Visar",
+      "organizer": "Oland Visar",
+      "notes": "A festival on an outside stage. Played with Sarcasm, Anguish, Diatryma and Mumincunt."
+    },
+
+    {
+      "id": 13,
+      "date": "2017-11-11",
+      "location": "Ljungskilegården",
+      "city": "Ljungskile",
+      "event": "Kustrock",
+      "organizer": "Kustrock",
+      "notes": "Played with Skullparade, Helldog and Rocketleg."
+    },
+
+    {
+      "id": 14,
+      "date": "2018-03-10",
+      "location": "Copperfields",
+      "city": "Stockholm",
+      "event": "Vintermörker",
+      "organizer": "Death Kills",
+      "notes": "Played with Mist of Misery and Like Fire"
+    },
+
+    {
+      "id": 15,
+      "date": "2018-03-28",
+      "location": "L'Orient",
+      "city": "Linköping",
+      "event": "Liveklubb i metallens tecken",
+      "organizer": "Dead Sparrow Prod",
+      "notes": "Played with Ancient Emblem (from Spain) and Svartjärn"
+    },
+
+    {
+      "id": 16,
+      "date": "2018-05-12",
+      "location": "L'Orient",
+      "city": "Linköping",
+      "event": "Nekrokraft Servants release fest",
+      "organizer": "Dead Sparrow Prod",
+      "notes": "Played with Recreated an Nekrokraft."
+    },
+
+    {
+      "id": 17,
+      "date": "2018-05-25",
+      "location": "Bastionen",
+      "city": "Uddevalla",
+      "event": "Kôrpehôlsfestivalen",
+      "organizer": "MF Adrian",
+      "notes": ""
+    },
+
+    {
+      "id": 18,
+      "date": "2018-08-03",
+      "location": "Backstage Varberg",
+      "city": "Varberg",
+      "event": "False Hope Cruelty 1yr anniversary",
+      "organizer": "Backstage Varberg",
+      "notes": ""
+    },
+
+    {
+      "id": 19,
+      "date": "2018-10-27",
+      "location": "Bastionen",
+      "city": "Uddevalla",
+      "event": "Metalkväll",
+      "organizer" : "MF Adrian",
+      "notes": "A Halloween show with Nekrokraft"
+    },
+
+    {
+      "id": 20,
+      "date": "2019-05-04",
+      "location": "L'Orient",
+      "city": "Linköping",
+      "event": "Liveklubb i metallens tecken!",
+      "organizer": "Dead Sparrow Prod",
+      "notes": "Played with Sanctrum, Eternal Lies and The Generations Army"
+    },
+
+    {
+      "id": 21,
+      "date": "2019-05-18",
+      "location": "Kraftwerket",
+      "city": "Copenhagen",
+      "event": "Dark Mental Festival",
+      "organizer": "Dark Mental Festival",
+      "notes": "A slightly different show since both Ludvig and Chris couldn't make it. Nevertheless, our first show outside of Sweden!"
+
+    },
+
+    {
+      "id": 22,
+      "date": "2019-08-31",
+      "location": "Crostwitz",
+      "city": "Dresden",
+      "event": "Nukstock Open Air",
+      "organizer": "Nukstock Open Air",
+      "notes": "First show abroad (with all members present). A really awesome experience!"
+    },
+
+    {
+      "id": 23,
+      "date": "2019-12-07",
+      "location": "The Abyss",
+      "city": "Gothenburg",
+      "event": "Viva Sound - The Abyss",
+      "organizer": "Westside Music Sweden",
+      "notes": "First performance in Gothenburg!"
+    },
+
+    {
+      "id": 24,
+      "date": "2020-05-12",
+      "location": "The Abyss",
+      "city": "Gothenburg",
+      "event": "Abyss Live Session",
+      "organizer": "Westside Music Sweden",
+      "notes": "Live show that was recorded (without an audience). Sadly the recording wasn't very good which led to us making the Cabin Fever Session instead."
+    },
+
+    {
+      "id": 25,
+      "date": "2020-08-14",
+      "location": "The Cabin",
+      "city": "Uddevalla",
+      "event": "Cabin Fever Session",
+      "organizer": "Revenge Prevails",
+      "notes": "Live session filmed at our cabin, check it out on our youtube-channel!"
+    },
+
+    {
+      "id": 26,
+      "date": "2020-09-04",
+      "location": "Jakobs Kök och Bar",
+      "city": "Stockholm/Jakan",
+      "event": "Fredagsmangel",
+      "organizer": "Fredagsmangel",
+      "notes": "The only 'real' live show we had 2020. Despite covid-19 it was an awesome night!"
+    },
+
+    {
+      "id": 27,
+      "date": "2060-06-06",
+      "location": "Satans Livingroom",
+      "city": "Hell",
+      "event": "Shred for Satan",
+      "organizer": "Lucifer",
+      "notes": ""
+    },
+
+    {
+      "id": 28,
+      "date": "2100-01-01",
+      "location": "Olympus Mons",
+      "city": "Mars City",
+      "event": "Welcome to the Future!",
+      "organizer": "Space-X",
+      "notes": ""
+    }
+  ]
+}
