@@ -2,11 +2,15 @@ import React, { Fragment } from 'react';
 import MyNavbar from './components/mynavbar'
 import { HashRouter as Router, Route, Redirect } from 'react-router-dom';
 import { withRouter } from 'react-router' 
-import Home from './components/home';
-import About from './components/about'
-import Contact from './components/contact';
-import Gigs from './components/gigs';
-import Music from './components/music';
+import Home from './pages/Home';
+import About from './pages/About';
+import Music from './pages/Music';
+import Gigs from './pages/Gigs';
+import Contact from './pages/Contact';
+
+import Page from './pages/Page';
+import NotFound from './pages/NotFound';
+import Footer from './components/footer';
 
 const HeaderWithRouter = withRouter(MyNavbar);
 
@@ -30,10 +34,12 @@ function App() {
             <Redirect to="/home" />
           </Route>
           <Route exact path="/home" component={ Home } />
-          <Route path="/about" component={ About } />
-          <Route path="/music" component={ Music } />
-          <Route path="/gigs" component={ Gigs } />
-          <Route path="/contact" component={ Contact } />
+          <Route exact path="/about" component={ About } />
+          <Route exact path="/music" component={ Music } />
+          <Route exact path="/gigs" component={ Gigs } />
+          <Route exact path="/contact" component={ Contact } />
+          <Route exact path='/page/:uid' component={Page} />
+          {/* <Route component={NotFound} /> */}
         </Fragment>
      </Router>  
   );

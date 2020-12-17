@@ -24,13 +24,6 @@ class MyNavbar extends React.Component {
     })
 
     window.scrollTo(0, 0);
-    var collapsed = document.getElementsByClassName('navbar-collapse')[0];
-    var toggler = document.getElementsByClassName('navbar-toggler')[0];
-    if (collapsed.className === "navbar-collapse collapse show") {
-      collapsed.className = 'navbar-collapse collapse';
-      toggler.className = 'navbar-toggler collapsed'
-    }
-    
   }
 
   render() {

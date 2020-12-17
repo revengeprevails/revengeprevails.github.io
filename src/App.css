@@ -52,11 +52,7 @@ p {
   font-style: normal;
 }
 
-.music {
-  margin-top: 75px;
-}
-
-.gigs {
+.music, .gigs {
   margin-top: 75px;
 }
 
@@ -78,6 +74,40 @@ td {
   background-color: #c3babacc;
 }
 
+.lds-ripple {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.lds-ripple:before, .lds-ripple:after {
+  content: '';
+  position: absolute;
+  border: 4px solid #333;
+  opacity: 1;
+  border-radius: 50%;
+  animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple:after {
+  animation-delay: -0.5s;
+}
+@keyframes lds-ripple {
+  0% {
+    top: 28px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: -1px;
+    left: -1px;
+    width: 58px;
+    height: 58px;
+    opacity: 0;
+  }
+}
+
 .rotating-snake {
   width: 40%;
   position: fixed;
@@ -89,14 +119,6 @@ td {
 
 .snake-right {
   right: -25%;
-}
-
-.behind {
-  z-index: -10;
-}
-
-.on-top {
-  z-index: 10;
 }
 
 .hand-l, .hand-r {
@@ -282,6 +304,33 @@ td {
 }
 
 @media screen and (max-width: 600px) {
+
+  .rotating-snake {
+    width: 100%;
+  }
+
+  .snake-left {
+    position: fixed;
+    left: 0;
+    top: 80px;
+  }
+
+  .snake-right {
+    visibility: hidden;
+  }
+  .music, .gigs {
+    margin-top: 60px;
+  }
+
+  th {
+    padding: 2px;
+    font-size: .5em;
+  }
+  
+  td {
+    padding: 2px;
+    font-size: .5em;
+  }
 
   .min-h {
     min-height: 100px;
