@@ -7,7 +7,7 @@ class Gig extends React.Component {
     const { gigs } = this.props;
     return( 
       <Row className="justify-content-center text-center">
-        <Col className="col-md-6 col-12 my-md-5 my-3">
+        <Col className="col-lg-8 col-md-10 col-12 my-md-5 my-3">
           <h2 className="my-3">{this.props.title}</h2>
           <table className="">
             <tr>

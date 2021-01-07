@@ -1,35 +1,22 @@
-import React, { useEffect, useState } from 'react';
-import { Container } from 'react-bootstrap';
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 import '../App.css';
-import GetType from '../components/getType';
-import Prismic from 'prismic-javascript'
-import { client } from '../prismic-configuration'
 
-const Contact = () => { 
-  
-  const [docs, setDocsData] = useState(null)
 
-  // Get the page document from Prismic
-  useEffect(() => {
-    const fetchData = async () => {
-      const response = await client.query(Prismic.Predicates.at('document.type', 'gig'))
-
-      if (response) {
-        return setDocsData(response.results)
-      } else {
-        // Otherwise show an error message
-        console.warn('Page document not found. Make sure it exists in your Prismic repository')
-      }
-    }
-    fetchData()
-  }, [])
-  
-  return( 
-    <Container>
-      <GetType gigs={docs}/>
-    </Container>
-  )
-  
+class Contact extends React.Component { 
+  render() {
+    return( 
+      <Container className="">
+        <Row className="justify-content-center vh-100 pb-5">
+          <Col className="my-auto">
+            <h2 className="py-2">Do you wish to make contact?</h2>
+            <h3>email to: <a className="my-link" target="_blank" href="mailto: revengeprevails@gmail.com">revengeprevails@gmail.com</a></h3>
+            <h3>or message us: <a className="my-link" target="_blank" href="https://www.facebook.com/revengeprevails">facebook.com/revengeprevails</a></h3>
+          </Col>
+        </Row>
+      </Container>
+    )
+  }
 }
 
 export default Contact;

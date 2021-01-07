@@ -7,7 +7,7 @@ class Biography extends React.Component {
     super(props);
     this.state = {
         year: '20',
-        text: 'The third full-length was completed in February and released later that year. Its name: HABITATS. This was their most mysterious and haunting release yet. You can feel and taste the deep, dark, woods were the album was composed. The album is their most extreme to date. Like the sea itself, calm and beautiful, but also brutal and without mercy. Listen at your own peril... '       
+        text: 'The third full-length was completed in February and released later that year. Its name: HABITATS. This was their most mysterious and haunting release yet. You can feel and taste the deep, dark, woods where the album was composed. The album is their most extreme to date. Like the sea itself, calm and beautiful, but also brutal and without mercy. Listen at your own peril... '       
     };
   }
 
@@ -19,13 +19,12 @@ class Biography extends React.Component {
       buttons[index].className = 'biography-btn'
     }
 
-
     document.getElementById(year).className = 'biography-btn active-year';
     var text = ""
 
     switch (year) {
       case '20':
-        text = 'The third full-length was completed in February and released later that year. Its name: HABITATS. This was their most mysterious and haunting release yet. You can feel and taste the deep, dark, woods were the album was composed. The album is their most extreme to date. Like the sea itself, calm and beautiful, but also brutal and without mercy. Listen at your own peril... '       
+        text = 'The third full-length was completed in February and released later that year. Its name: HABITATS. This was their most mysterious and haunting release yet. You can feel and taste the deep, dark, woods where the album was composed. The album is their most extreme to date. Like the sea itself, calm and beautiful, but also brutal and without mercy. Listen at your own peril... '       
         break;
       case '19':
        text = 'The band took their live show abroad for the first time. Including “Dark Mental Festival” in Denmark as well as Nukstock open air in Germany. During the time within the walls of the mysterious cabin, the bandmembers finished composing their third full-length album. The recording began in November 2019 at Armageddon-Recordings, the studio owned and managed by the mighty Anders “Bloodlord” Backelin.  '

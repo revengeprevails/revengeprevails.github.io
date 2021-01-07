@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
-import MyNavbar from './components/mynavbar'
 import { HashRouter as Router, Route, Redirect } from 'react-router-dom';
 import { withRouter } from 'react-router' 
+import MyNavbar from './components/mynavbar'
 import Home from './pages/Home';
 import About from './pages/About';
 import Music from './pages/Music';
@@ -26,9 +26,10 @@ function App() {
     false
   );
 
-  return (    
-     <Router basename="/">
-       <Fragment>
+  return (
+    <div className="content">
+      <Router basename="/">
+        <Fragment>
           <HeaderWithRouter />
           <Route exact path="/">
             <Redirect to="/home" />
@@ -41,7 +42,9 @@ function App() {
           <Route exact path='/page/:uid' component={Page} />
           {/* <Route component={NotFound} /> */}
         </Fragment>
-     </Router>  
+      </Router>  
+      <Footer />
+    </div>    
   );
 }
 

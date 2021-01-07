@@ -17,9 +17,6 @@ class Gigs extends React.Component {
 
   componentDidMount() {  
     const gigsJSON = require('../gigs.json')
-    //console.log(gigsJSON.gigs)
-    //var reversedGigs = gigsJSON.gigs.reverse();
-    
     var previousGigs = [];
     var comingGigs = [];
 
@@ -45,7 +42,6 @@ class Gigs extends React.Component {
         <RotatingSnakes/>    
         <Gig title="Upcoming gigs" gigs={this.state.comingGigs}/>
         <Gig title="Previous gigs" gigs={this.state.previousGigs}/>
-        <Footer/>
       </Container>
     );
   }

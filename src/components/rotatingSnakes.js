@@ -13,6 +13,12 @@ import graysnake from '../images/whole snake gray.svg'
       snakeRight.style.transform = "rotate(" + window.pageYOffset/3 + "deg)";
     };
   }
+
+  componentWillUnmount() {
+    window.onscroll = function () {
+      // stops window onscroll event
+    };
+  }
   
   render() {
     return( 

@@ -10,6 +10,10 @@ class MyNavbar extends React.Component {
   }
 
   componentDidMount() {
+    this.makeNavLinkActive();
+  }
+
+  makeNavLinkActive() {
     var splitAdress = window.location.href.split("/")
     var subpage = splitAdress[splitAdress.length - 1]
 
@@ -23,13 +27,19 @@ class MyNavbar extends React.Component {
       activeLink: linkName
     })
 
+    var windowWidth = window.innerWidth;
+
+    if (windowWidth <= 990){
+      var toggle = document.getElementById('navbar-toggle')
+      toggle.click();
+    }
     window.scrollTo(0, 0);
   }
 
   render() {
     return(
       <Navbar fixed="top" bg="light" expand="lg">
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle id="navbar-toggle" aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Navbar.Brand className="brand" href="#/home" onClick={(e) => this.handleClick('home')}><img alt="Revenge Prevails Logo" src={logo}/></Navbar.Brand>
           <Nav activeKey={this.props.location.pathname} className="mr-auto">

@@ -1,4 +1,3 @@
-// In src/pages/Page.js
 import React, { useEffect, useState } from 'react'
 import { RichText } from 'prismic-reactjs'
 import { client, linkResolver } from '../prismic-configuration'

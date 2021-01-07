@@ -242,16 +242,6 @@
     },
 
     {
-      "id": 24,
-      "date": "2020-05-12",
-      "location": "The Abyss",
-      "city": "Gothenburg",
-      "event": "Abyss Live Session",
-      "organizer": "Westside Music Sweden",
-      "notes": "Live show that was recorded (without an audience). Sadly the recording wasn't very good which led to us making the Cabin Fever Session instead."
-    },
-
-    {
       "id": 25,
       "date": "2020-08-14",
       "location": "The Cabin",
