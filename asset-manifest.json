@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.4c56abd6.chunk.css",
-    "main.js": "/static/js/main.51e9b042.chunk.js",
-    "main.js.map": "/static/js/main.51e9b042.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d7863778.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d7863778.js.map",
+    "main.css": "/static/css/main.a8616290.chunk.css",
+    "main.js": "/static/js/main.0cd9580b.chunk.js",
+    "main.js.map": "/static/js/main.0cd9580b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f6fad6b1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f6fad6b1.js.map",
     "static/css/2.437d98bc.chunk.css": "/static/css/2.437d98bc.chunk.css",
-    "static/js/2.78e2de14.chunk.js": "/static/js/2.78e2de14.chunk.js",
-    "static/js/2.78e2de14.chunk.js.map": "/static/js/2.78e2de14.chunk.js.map",
-    "static/js/3.be2b3daa.chunk.js": "/static/js/3.be2b3daa.chunk.js",
-    "static/js/3.be2b3daa.chunk.js.map": "/static/js/3.be2b3daa.chunk.js.map",
+    "static/js/2.5dec8c52.chunk.js": "/static/js/2.5dec8c52.chunk.js",
+    "static/js/2.5dec8c52.chunk.js.map": "/static/js/2.5dec8c52.chunk.js.map",
+    "static/js/3.7661be7d.chunk.js": "/static/js/3.7661be7d.chunk.js",
+    "static/js/3.7661be7d.chunk.js.map": "/static/js/3.7661be7d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.29fd0bb367e523efbcedc00006634328.js": "/precache-manifest.29fd0bb367e523efbcedc00006634328.js",
+    "precache-manifest.eee4388076371b347f1d670d74d6e8ee.js": "/precache-manifest.eee4388076371b347f1d670d74d6e8ee.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.437d98bc.chunk.css.map": "/static/css/2.437d98bc.chunk.css.map",
-    "static/css/main.4c56abd6.chunk.css.map": "/static/css/main.4c56abd6.chunk.css.map",
-    "static/js/2.78e2de14.chunk.js.LICENSE.txt": "/static/js/2.78e2de14.chunk.js.LICENSE.txt",
+    "static/css/main.a8616290.chunk.css.map": "/static/css/main.a8616290.chunk.css.map",
+    "static/js/2.5dec8c52.chunk.js.LICENSE.txt": "/static/js/2.5dec8c52.chunk.js.LICENSE.txt",
     "static/media/Christoffer small.jpg": "/static/media/Christoffer small.7b0ed5c4.jpg",
     "static/media/Isabella small.jpg": "/static/media/Isabella small.7dc351df.jpg",
     "static/media/Josef small.jpg": "/static/media/Josef small.469ea690.jpg",
@@ -25,6 +25,7 @@
     "static/media/bandbild 3 2020 bw.jpg": "/static/media/bandbild 3 2020 bw.32c9bb89.jpg",
     "static/media/corner snake gray.svg": "/static/media/corner snake gray.a2293659.svg",
     "static/media/corner snake red.svg": "/static/media/corner snake red.6565702f.svg",
+    "static/media/dront.svg": "/static/media/dront.3e262bd4.svg",
     "static/media/hand.svg": "/static/media/hand.afb9453d.svg",
     "static/media/rp logo round white.svg": "/static/media/rp logo round white.eecd815d.svg",
     "static/media/rp logo.svg": "/static/media/rp logo.787ced4d.svg",
@@ -32,10 +33,10 @@
     "static/media/whole snake red.svg": "/static/media/whole snake red.0a82f924.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d7863778.js",
+    "static/js/runtime-main.f6fad6b1.js",
     "static/css/2.437d98bc.chunk.css",
-    "static/js/2.78e2de14.chunk.js",
-    "static/css/main.4c56abd6.chunk.css",
-    "static/js/main.51e9b042.chunk.js"
+    "static/js/2.5dec8c52.chunk.js",
+    "static/css/main.a8616290.chunk.css",
+    "static/js/main.0cd9580b.chunk.js"
   ]
 }
