@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.4343e85d.chunk.css",
-    "main.js": "/static/js/main.143fc073.chunk.js",
-    "main.js.map": "/static/js/main.143fc073.chunk.js.map",
+    "main.css": "/static/css/main.4c56abd6.chunk.css",
+    "main.js": "/static/js/main.77f77f0f.chunk.js",
+    "main.js.map": "/static/js/main.77f77f0f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d7863778.js",
     "runtime-main.js.map": "/static/js/runtime-main.d7863778.js.map",
     "static/css/2.437d98bc.chunk.css": "/static/css/2.437d98bc.chunk.css",
-    "static/js/2.aa6413a0.chunk.js": "/static/js/2.aa6413a0.chunk.js",
-    "static/js/2.aa6413a0.chunk.js.map": "/static/js/2.aa6413a0.chunk.js.map",
+    "static/js/2.78e2de14.chunk.js": "/static/js/2.78e2de14.chunk.js",
+    "static/js/2.78e2de14.chunk.js.map": "/static/js/2.78e2de14.chunk.js.map",
     "static/js/3.be2b3daa.chunk.js": "/static/js/3.be2b3daa.chunk.js",
     "static/js/3.be2b3daa.chunk.js.map": "/static/js/3.be2b3daa.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.acdf97d83c9c9aa4a1b1e21f211be346.js": "/precache-manifest.acdf97d83c9c9aa4a1b1e21f211be346.js",
+    "precache-manifest.57a6f5789baedb976f21b7fcf85354d8.js": "/precache-manifest.57a6f5789baedb976f21b7fcf85354d8.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.437d98bc.chunk.css.map": "/static/css/2.437d98bc.chunk.css.map",
-    "static/css/main.4343e85d.chunk.css.map": "/static/css/main.4343e85d.chunk.css.map",
-    "static/js/2.aa6413a0.chunk.js.LICENSE.txt": "/static/js/2.aa6413a0.chunk.js.LICENSE.txt",
+    "static/css/main.4c56abd6.chunk.css.map": "/static/css/main.4c56abd6.chunk.css.map",
+    "static/js/2.78e2de14.chunk.js.LICENSE.txt": "/static/js/2.78e2de14.chunk.js.LICENSE.txt",
     "static/media/Christoffer small.jpg": "/static/media/Christoffer small.7b0ed5c4.jpg",
     "static/media/Isabella small.jpg": "/static/media/Isabella small.7dc351df.jpg",
     "static/media/Josef small.jpg": "/static/media/Josef small.469ea690.jpg",
@@ -34,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.d7863778.js",
     "static/css/2.437d98bc.chunk.css",
-    "static/js/2.aa6413a0.chunk.js",
-    "static/css/main.4343e85d.chunk.css",
-    "static/js/main.143fc073.chunk.js"
+    "static/js/2.78e2de14.chunk.js",
+    "static/css/main.4c56abd6.chunk.css",
+    "static/js/main.77f77f0f.chunk.js"
   ]
 }
