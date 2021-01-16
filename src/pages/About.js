@@ -9,12 +9,10 @@ class About extends React.Component {
   render() {
     return( 
       <Container fluid className="justify-content-center">
-        <Row className="vh-100">
-          <Col className="my-5">
-            <img src={coverphoto} className="coverphoto coverphoto-about translate"/>
-            <div>
-              <p className="about-text text-center">REVENGE<br/>PREVAILS</p>  
-            </div>
+        <Row className="">
+          <Col className="my-5 py-5">
+            <img id="coverphoto" src={coverphoto} className="coverphoto coverphoto-about"/>       
+            <p className="about-text text-center">REVENGE<br/>PREVAILS</p>          
           </Col>
         </Row>
         <Biography/>

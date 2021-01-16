@@ -6,7 +6,7 @@ import graysnake from '../images/corner snake gray.svg'
 
 const Footer = () => ( 
   <div className="footer">
-    <Row className="bg-light align-items-end justify-content-between w-100 no-gutters">
+    <Row className="bg-light align-items-end justify-content-between w-100 no-gutters pt-3">
       <Col className="order-md-1 order-2 col-md-2 col-6">
         <img src={redsnake} className="footer-snake redsnake"/>
       </Col>

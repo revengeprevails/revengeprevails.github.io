@@ -72,10 +72,10 @@ class Biography extends React.Component {
         <Col className="col-md-10 col-12 py-5">
           <h1>BIO&shy;GRAPHY</h1>
           <Row className="py-md-5 py-0 my-md-5 my-0 justify-content-center">
-            <Col className="col-md-2 col-12 hide-xs">
+            <Col className="col-lg-2 col-md-4 col-12 hide-xs">
               <h2 className="biography-year">20<br/>{this.state.year}</h2>
             </Col>
-            <Col className="col-md-5 col-12 text-justify text-monospace ml-md-2 p-md-4 p-3 my-auto min-h">
+            <Col className="col-lg-5 col-md-7 col-12 text-justify text-monospace ml-lg-2 p-lg-4 p-3 my-auto min-h">
               <p className="pink-bg-fluff">
                 {this.state.text}
               </p>

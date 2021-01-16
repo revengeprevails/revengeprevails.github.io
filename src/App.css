@@ -2,6 +2,7 @@
 
 body {
   background-color: #c3baba;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -63,8 +64,6 @@ p {
   margin-top: 75px;
 }
 
-
-
 table {
   margin: auto;
   width: 100%;
@@ -123,6 +122,10 @@ td {
   left: 0;
 }
 
+.coverphoto-about {
+  margin-top: -60px;
+}
+
 .rp-logo {
   width: 200px;
   z-index: -5;
@@ -136,9 +139,9 @@ td {
   font-weight: 400;
   color: #EA553B;
   user-select: none;
-  font-size: 10em;
+  font-size: 10vw;
   letter-spacing: .5em;
-  margin-top: 15%;
+  margin-top: 10vh;
   line-height: 1em;
 }
 
@@ -247,10 +250,6 @@ td {
   letter-spacing: 0;
 }
 
-.biography {
-  min-height: 100vh;
-}
-
 .pink-bg-fluff {
   background-color: #d3bcb67e;
 }
@@ -293,9 +292,26 @@ td {
   max-width: 100vw;
 }
 
+.members {
+  width: 103%;
+  margin-left: -15px;
+}
+
+.members-text {
+    z-index: 5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 1.5em;
+    width: 100%;
+}
+
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
-
+  .members-text {
+    margin-top: 1em;
+    letter-spacing: .3em;
+  }
   .rotating-snake {
     width: 90%;
     position: fixed;
@@ -344,22 +360,6 @@ td {
     left: 0;
     margin-top: 58px;
   }
-
-  .coverphoto-about {
-    height: 100vh;
-    width: auto;
-    margin-left: 0;
-  }
-
-  .translate {
-    animation: translate 15s alternate infinite;
-    animation-delay: 1s;
-  }
-  
-  @keyframes translate {
-    0% { margin-left: 0;}
-    100% {margin-left: -170%;}
-  }
   
   .footer-snake {
     width: 90%;
@@ -369,13 +369,7 @@ td {
     margin-top: 100vh;
   }
 
-  .about-text {
-    font-size: 1em;
-    line-height: 1em;
-    letter-spacing: .1em;
-  }
-
-  .biography h1, .members h1 {
+  .biography h1 {
     font-size: 1.3em;
   }
 
@@ -397,23 +391,19 @@ td {
     margin-bottom: 100vh;
   }
 
-  .hand-l, .hand-r {
-    z-index: -10;
-  }
-
   .contact {
     margin-top: 100px;
   }
+  
+  .members {
+    width: 106%;
+    margin-left: -15px;
+  }
 }
+
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
-  .about-text {
-    font-size: 3em;
-    margin-top: 70%;
-    line-height: 1em;
-    letter-spacing: .1em;
-  }
   .rp-logo {
     width: 40%;
     z-index: -5;
@@ -423,8 +413,27 @@ td {
   }
 }
 
+@media (max-width: 1550px) { 
+ /*  .coverphoto-about {
+    height: 100vh;
+    width: auto;
+    margin-left: 0;
+  }
+
+  .translate {
+    animation: translate 15s alternate infinite;
+    animation-delay: 1s;
+  }
+  
+  @keyframes translate {
+    0% { margin-left: 0;}
+    100% {margin-left: -10%;}
+  }  */
+}
+
 /* Large devices (desktops, less than 1200px) */
 @media (min-width: 1199.98px) { 
+
 }
 
 

@@ -7,12 +7,12 @@ class Album extends React.Component {
   render() {
     const { releases } = this.props;
     return( 
-      <div className="bg-spots-light px-md-5 p-0">
+      <div className="bg-spots-light px-xl-5 px-0">
         {
           releases.map(item => {
             return (
-              <Row className="bg-spots-dark-center justify-content-center p-md-5 p-3">               
-                <Col className="col-md-4 col-12 py-md-3 px-md-5 p-0 my-3 offset-md-2 order-md-1 order-2">
+              <Row className="bg-spots-dark-center justify-content-center py-5 px-xl-5 px-0">               
+                <Col className="col-xl-4 col-12 my-3 offset-xl-2 order-xl-1 order-2 px-xl-3 px-5">
                   <h2 className="text-uppercase">{item.title}</h2>
                   <h3>{item.type} ({item.releaseDate})</h3>
                   <div className="py-3">
@@ -33,11 +33,11 @@ class Album extends React.Component {
                     </a>
                   </div>
                 </Col>
-                <Col className="col-md-4 col-12 py-3 px-5 order-md-2 order-1">
+                <Col className="col-xl-4 col-lg-10 col-12 p-5 order-xl-2 order-1">
                   <img className="w-100 d-block" src={item.albumCoverURL}/>
                 </Col>
-                <Col className="col-md-2 order-md-3 order-5"></Col>
-                <Col className="col-md-4 col-12 px-md-5 p-0 my-3 order-3">
+                <Col className="col-xl-2 order-xl-3 order-5"></Col>
+                <Col className="col-xl-4 col-12 my-3 order-3">
                   <Accordion>
                     <Card>
                       <Card.Header>
@@ -55,7 +55,7 @@ class Album extends React.Component {
                     </Card>
                   </Accordion>
                 </Col>
-                <Col className="col-md-4 col-12 px-md-5 p-0 my-3 order-4">
+                <Col className="col-xl-4 col-12 my-3 order-4">
                   <Accordion>
                     <Card>
                       <Card.Header>
