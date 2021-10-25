@@ -263,6 +263,34 @@
 
     {
       "id": 27,
+      "date": "2021-08-07",
+      "location": "Jakobs Kök och Bar",
+      "city": "Stockholm/Jakan",
+      "event": "Fredagsmangel",
+      "organizer": "Fredagsmangel",
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "date": "2021-09-18",
+      "location": "Måndalsbunkern",
+      "city": "Stockholm/Tyresö",
+      "event": "Pandemic Pandemonium MMXXI",
+      "organizer": "Helvetestromb med vänner",
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "date": "2021-11-13",
+      "location": "Bastionen",
+      "city": "Uddevalla",
+      "event": "Dödsmässa #1",
+      "organizer": "Dödsmässa",
+      "notes": "Originally we were only going to watch this show but got invited to play on short notice."
+    },
+
+    {
+      "id": 30,
       "date": "2060-06-06",
       "location": "Satans Livingroom",
       "city": "Hell",
@@ -272,7 +300,7 @@
     },
 
     {
-      "id": 28,
+      "id": 31,
       "date": "2100-01-01",
       "location": "Olympus Mons",
       "city": "Mars City",
