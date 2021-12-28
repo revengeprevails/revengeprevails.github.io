@@ -288,7 +288,6 @@
       "organizer": "Dödsmässa",
       "notes": "Originally we were only going to watch this show but got invited to play on short notice."
     },
-
     {
       "id": 30,
       "date": "2060-06-06",
@@ -307,6 +306,15 @@
       "event": "Welcome to the Future!",
       "organizer": "Space-X",
       "notes": ""
+    },
+    {
+      "id": 32,
+      "date": "2021-12-10",
+      "location": "Sockerfabriken",
+      "city": "Lidköping",
+      "event": "Likköping",
+      "organizer": "Studiefrämjandet Skaraborg",
+      "notes": "With Envig and Creeping Flesh"
     }
   ]
 }
