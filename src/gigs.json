@@ -315,6 +315,16 @@
       "event": "Likköping",
       "organizer": "Studiefrämjandet Skaraborg",
       "notes": "With Envig and Creeping Flesh"
+    },
+    {
+      "id": 33,
+      "date": "2022-04-30",
+      "location": "Jakobs kök och bar",
+      "city": "Stockholm/Jakan",
+      "event": "Fredagsmangel",
+      "organizer": "Fredagsmangel",
+      "notes": "With Vanhelga"
     }
+
   ]
 }
