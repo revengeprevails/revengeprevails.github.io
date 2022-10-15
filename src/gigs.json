@@ -345,22 +345,21 @@
     },
     {
       "id": 36,
-      "date": "2022-10-01",
-      "location": "Kulturhuset femman",
-      "city": "Uppsala",
-      "event": "Black steel in the hour of chaos",
-      "organizer": "Noise terror cult Stockholm",
-      "notes": "With Helvetestromb, Fayenne och Svederna"
-    },
-    {
-      "id": 37,
       "date": "2022-09-03",
       "location": "Sticky Fingers",
       "city": "Göteborg",
       "event": "Metal på Sticky",
       "organizer": "Club Graveyard",
       "notes": "With Misery Oath"
+    },
+    {
+      "id": 37,
+      "date": "2022-10-01",
+      "location": "Kulturhuset femman",
+      "city": "Uppsala",
+      "event": "Black steel in the hour of chaos",
+      "organizer": "Noise terror cult Stockholm",
+      "notes": "With Helvetestromb, Fayenne och Svederna"
     }
-
   ]
 }
