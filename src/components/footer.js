@@ -12,7 +12,7 @@ const Footer = () => (
       </Col>
       <Col className="order-md-2 order-1 col-md-4 col-12 text-center pb-md-5 pb-0 pt-4">
         <p>Revenge Prevails<br/>
-            MMXXI<br/>
+            MMXXII<br/>
             revengeprevails@gmail.com
         </p>
         <a href="https://www.facebook.com/revengeprevails" target="_blank" rel="noopener noreferrer">
