@@ -7,7 +7,7 @@ class Biography extends React.Component {
     super(props);
     this.state = {
         year: '22',
-        text: 'An imposing challenge was now to be undertaken. The way forward from HABITATS was to write songs with as few boundaries as possible. A heap of songs were crafted, with three of them having an unique sense of belonging together. Three songs that were meant to a trinity, with no other distractions. The band decided to place them on an outlandish EP. Five live performances also took place during this year, along with the completion and recording of the EP. '       
+        text: 'An imposing challenge was now to be undertaken. The way forward from HABITATS was to write songs with as few boundaries as possible. A heap of songs were crafted, with three of them having a unique sense of belonging together. Three songs that were meant to be a trinity, with no other distractions. The band decided to place them on an outlandish EP. Five live performances also took place during this year, along with the completion and recording of the EP. '       
     };
   }
 
@@ -24,7 +24,7 @@ class Biography extends React.Component {
 
     switch (year) {
       case '22':
-      text = 'An imposing challenge was now to be undertaken. The way forward from HABITATS was to write songs with as few boundaries as possible. A heap of songs were crafted, with three of them having an unique sense of belonging together. Three songs that were meant to a trinity, with no other distractions. The band decided to place them on an outlandish EP. Five live performances also took place during this year, along with the completion and recording of the EP. '       
+      text = 'An imposing challenge was now to be undertaken. The way forward from HABITATS was to write songs with as few boundaries as possible. A heap of songs were crafted, with three of them having a unique sense of belonging together. Three songs that were meant to be a trinity, with no other distractions. The band decided to place them on an outlandish EP. Five live performances also took place during this year, along with the completion and recording of the EP. '       
       break;
       case '21':
         text = 'Now basking in the glory of their magnum opus. HABITATS needed to be displayed to the world. They took to the stage on both new and familiar ground. Perhaps the most memorable show was one that took place inside of a WWI-bunker. However, HABITATS now stood looming, casting a great shadow. The difficulty of ever creating songs that would surpass this crowning achievement. '       
