@@ -38,7 +38,8 @@ h2 {
 } 
 
 h3 {
-  font-family: 'Letter Gothic Std', monospace;
+  font-family: 'Letter Gothic Std', monospace; 
+  color: rgb(15,15,15);
 }
 
 h4 {
@@ -226,12 +227,12 @@ td {
 }
 
 .accordion-header {
-  color: rgb(33, 37, 41);
+  color: rgb(15, 15, 15);
   margin-bottom: -5px;
 }
 
 .accordion-header:hover {
-  color:rgb(23, 26, 29);
+  color:rgb(0, 0, 0);
 }
 
 .border-red {

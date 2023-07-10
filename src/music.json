@@ -2,6 +2,45 @@
   "releases": [
     {
       "id": 0,
+      "title": "Jaws of Janus",
+      "albumCoverURL": "https://f4.bcbits.com/img/a0658377898_10.jpg",
+      "releaseDate": "2023",
+      "type": "EP",
+      "tracks": [
+        "1. Maw",
+        "2. Dungeon",
+        "3. Sculptor"
+      ],
+      "info" : "Jaws of Janus was recorded during four days in October 2022, one day in November 2022 and one day in April 2023. Engineered, mixed and mastered by Anders Backelin (AKA Bloodlord) at Armageddon Recordings, Vänersborg, Sweden. Music and lyrics by Revenge Prevails. Cover art and graphic design by Isabella Ramare.",
+      "lineup" : [
+        {
+          "id": 0,
+          "name": "Josef Svensson as the Sultan",
+          "contribution": "Madman Raver & Puller of Strings"
+        },
+        {
+          "id": 1,
+          "name": "Christoffer Helleren as Bilge-Blasting Impender",
+          "contribution": "Head & Skin Smasher"
+        },
+        {
+          "id": 2,
+          "name": "Isabella Ramare as Herself",
+          "contribution": "Evoker of Rumbling Tremors & Angelic Chanter"
+        },
+        {
+          "id": 3,
+          "name": "Ludvig Björk as Hlodyr",
+          "contribution": "Tornado Sweeper & Parental Grunter"
+        }
+      ], 
+      "spotifyLink": "https://open.spotify.com/album/2jtJ7wLGl6KR8o0tm0Yjes?si=hEfwmVSGRhWGVm9RWHR35A",
+      "youtubeLink": "https://youtu.be/Aby1iC1qyjE",
+      "bandcampLink": "https://revengeprevails.bandcamp.com/album/jaws-of-janus"
+    },
+
+    {
+      "id": 1,
       "title": "Habitats",
       "albumCoverURL": "https://f4.bcbits.com/img/a0658377898_10.jpg",
       "releaseDate": "2020",
@@ -43,9 +82,8 @@
       "youtubeLink": "https://youtu.be/iCrcsPQ0WZ0",
       "bandcampLink": "https://revengeprevails.bandcamp.com/album/habitats"
     },
-
     {
-      "id": 1,
+      "id": 2,
       "title": "False Hope Cruelty",
       "albumCoverURL": "https://f4.bcbits.com/img/a3850435771_10.jpg",
       "releaseDate": "2017",
@@ -93,7 +131,7 @@
     },
 
     {
-      "id": 2,
+      "id": 3,
       "title": "Dark Trembling Solace",
       "albumCoverURL": "https://f4.bcbits.com/img/a4148041208_10.jpg",
       "releaseDate": "2015",
@@ -139,7 +177,7 @@
     },
 
     {
-      "id": 3,
+      "id": 4,
       "title": "Black Void Injection",
       "albumCoverURL": "https://f4.bcbits.com/img/a0701674840_10.jpg",
       "releaseDate": "2013",
