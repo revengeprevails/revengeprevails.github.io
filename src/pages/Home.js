@@ -25,7 +25,7 @@ const Home = () => {
           <h1 className="text-light text-center mt-5 ">NEWS</h1>
           <Row className="justify-content-center my-5 p-md-5 p-1 text-light">
           <Col className="col-md-6 col-12 p-3">
-              <img alt="Jaws of Janus album cover" src="https://f4.bcbits.com/img/a0658377898_10.jpg" className="habitats"/>               
+              <img alt="Jaws of Janus album cover" src="https://github.com/revengeprevails/revengeprevails.github.io/blob/master/src/images/Jaws%20of%20Janus.png?raw=true" className="habitats"/>               
             </Col>
             <Col className="col-md-6 col-12 p-3">
               <h2 className="text-left">JAWS OF JANUS EP 2023</h2>
